@@ -1,3 +1,6 @@
+🌐 **Acesse o aplicativo:** [Radio Finder](https://app-finder-five.vercel.app)
+
+Aplicativo para descobrir e ouvir rádios online por município no Brasil.
 # Radio Finder
 
 Aplicativo para descobrir e ouvir rádios online por município no Brasil.
