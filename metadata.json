@@ -1,0 +1,6 @@
+{
+  "name": "Radio Finder",
+  "description": "Aplicativo inteligente de descoberta e reprodução de rádios locais por geolocalização e catálogo regional.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

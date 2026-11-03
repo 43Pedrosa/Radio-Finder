@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#090d16"/>
+  <circle cx="256" cy="256" r="230" stroke="#1e293b" stroke-width="4" stroke-dasharray="8 8"/>
+  <defs>
+    <linearGradient id="grad1" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4"/>
+      <stop offset="0.5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="256" y1="180" x2="256" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Radio Waves -->
+  <path d="M140 180 C110 220 110 292 140 332" stroke="url(#grad1)" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M372 180 C402 220 402 292 372 332" stroke="url(#grad1)" stroke-width="18" stroke-linecap="round" fill="none"/>
+  
+  <!-- Mid Radio Waves -->
+  <path d="M185 210 C165 238 165 274 185 302" stroke="url(#grad1)" stroke-width="16" stroke-linecap="round" stroke-opacity="0.85" fill="none"/>
+  <path d="M327 210 C347 238 347 274 327 302" stroke="url(#grad1)" stroke-width="16" stroke-linecap="round" stroke-opacity="0.85" fill="none"/>
+  
+  <!-- Center Antenna / Core -->
+  <line x1="256" y1="110" x2="256" y2="256" stroke="url(#grad1)" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="256" cy="110" r="24" fill="#06b6d4"/>
+  <circle cx="256" cy="110" r="12" fill="#ffffff"/>
+  
+  <!-- Radio Dial Base -->
+  <circle cx="256" cy="290" r="54" fill="#0f172a" stroke="url(#grad1)" stroke-width="14"/>
+  <circle cx="256" cy="290" r="22" fill="#38bdf8"/>
+  <circle cx="256" cy="290" r="8" fill="#ffffff"/>
+</svg>
