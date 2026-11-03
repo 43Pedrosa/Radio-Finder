@@ -40,7 +40,7 @@ function AppContent() {
       />
 
       {/* Main Content Area */}
-      <main className={`flex-1 ${currentStation ? 'pb-40 sm:pb-24' : 'pb-8'}`}>
+      <main className={`flex-1 ${currentStation ? 'pb-[calc(160px+env(safe-area-inset-bottom,0px))] md:pb-24' : 'pb-16 md:pb-8'}`}>
         <Routes>
           <Route
             path="/"
