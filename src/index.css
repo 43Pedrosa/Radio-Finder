@@ -102,6 +102,7 @@ html.dark .sidebar-divider { background: rgba(255,255,255,.09); }
 
 .station-card { min-height: 88px; }
 .station-card:focus-within { outline: 2px solid rgba(250,49,88,.35); outline-offset: 2px; }
+.mobile-nav-with-player { bottom: calc(82px + 14px + env(safe-area-inset-bottom, 0px)); }
 .apple-player { border-top-color: rgba(255,255,255,.1); }
 .player-skip { display:inline-flex; height:36px; width:32px; align-items:center; justify-content:center; color:rgba(255,255,255,.66); transition:color .18s ease, transform .18s ease; }
 .player-skip:hover:not(:disabled) { color:#fff; transform:scale(1.08); }

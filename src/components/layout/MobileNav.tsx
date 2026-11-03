@@ -4,7 +4,7 @@ import { Radio, Heart, Settings } from 'lucide-react';
 
 export const MobileNav: React.FC<{ playerActive?: boolean }> = ({ playerActive = false }) => {
   return (
-    <nav className={`md:hidden fixed ${playerActive ? 'bottom-[76px]' : 'bottom-0'} left-0 right-0 z-30 bg-white/90 backdrop-blur-2xl border-t border-slate-200/80 dark:bg-[#171719]/92 dark:border-white/[.08] px-2 py-1 flex items-center justify-around text-[10px]`}>
+    <nav className={`md:hidden fixed ${playerActive ? 'mobile-nav-with-player' : 'bottom-0'} left-0 right-0 z-30 bg-white/90 backdrop-blur-2xl border-t border-slate-200/80 dark:bg-[#171719]/92 dark:border-white/[.08] px-2 py-1 flex items-center justify-around text-[10px]`}>
       <NavLink
         to="/"
         end
